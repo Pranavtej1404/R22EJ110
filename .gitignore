@@ -1,0 +1,95 @@
+############################################
+# BACKEND (Spring Boot - Maven/Gradle)
+############################################
+
+# Maven
+Backend/target/
+Backend/.mvn/wrapper/maven-wrapper.jar
+Backend/!**/src/main/**/target/
+Backend/!**/src/test/**/target/
+
+# Gradle
+Backend/.gradle/
+Backend/build/
+Backend/!**/src/main/**/build/
+Backend/!**/src/test/**/build/
+
+# Spring Tool Suite (STS)
+Backend/.apt_generated
+Backend/.classpath
+Backend/.factorypath
+Backend/.project
+Backend/.settings
+Backend/.springBeans
+Backend/.sts4-cache
+
+# IntelliJ IDEA
+Backend/.idea
+Backend/*.iws
+Backend/*.iml
+Backend/*.ipr
+
+# NetBeans
+Backend/nbproject/private/
+Backend/nbbuild/
+Backend/dist/
+Backend/nbdist/
+Backend/.nb-gradle/
+
+############################################
+# FRONTEND (Next.js)
+############################################
+
+# Dependencies
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.*
+frontend/.yarn/*
+frontend/!.yarn/patches
+frontend/!.yarn/plugins
+frontend/!.yarn/releases
+frontend/!.yarn/versions
+
+# Testing
+frontend/coverage
+
+# Next.js build outputs
+frontend/.next/
+frontend/out/
+frontend/build
+
+# Misc
+frontend/.DS_Store
+frontend/*.pem
+
+# Debug logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnpm-debug.log*
+
+# Env files (optional – don’t commit secrets)
+frontend/.env*
+
+# Vercel
+frontend/.vercel
+
+# TypeScript
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+############################################
+# COMMON (applies to both frontend & backend)
+############################################
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+.git
